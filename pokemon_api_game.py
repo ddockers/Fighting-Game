@@ -29,7 +29,7 @@ elif int(player_poke['base_experience']) < int(cpu_poke['base_experience']):
     print('Unfortunately the CPU\'s Pokemon bested your\'s. Better luck next time')
 
 print('')
-input('--press <ENTER> to close')
+input('--press <ENTER> to close--')
 
 # print(our_poke.keys())
 # print(player_poke['name'])
