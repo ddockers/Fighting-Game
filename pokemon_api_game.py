@@ -26,7 +26,7 @@ if int(player_poke['base_experience']) == int(cpu_poke['base_experience']):
 elif int(player_poke['base_experience']) > int(cpu_poke['base_experience']):
     print('Congratulations, your Pokemon beat the CPU\'s. You Win!!!')
 elif int(player_poke['base_experience']) < int(cpu_poke['base_experience']):
-    print('Unfortunately the CPU\'s Pokemon bested your\'s. Better luck next time')
+    print('Unfortunately the CPU\'s Pokemon bested yours. Better luck next time')
 
 print('')
 input('--press <ENTER> to close--')
