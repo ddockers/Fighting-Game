@@ -15,8 +15,7 @@ player_poke = pokemon_req_player.json()
 cpu_poke = pokemon_req_cpu.json()
 
 print('')
-print('The Player\'s Pokemon is {}, with a power level of: {}'.format(player_poke['name'],
-                                                                      player_poke['base_experience']))
+print('The Player\'s Pokemon is {}, with a power level of: {}'.format(player_poke['name'], player_poke['base_experience']))
 print('')
 print('The CPU\'s Pokemon is {}, with a power level of: {}'.format(cpu_poke['name'], cpu_poke['base_experience']))
 print('')
